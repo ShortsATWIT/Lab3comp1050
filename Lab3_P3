@@ -1,0 +1,10 @@
+public class Lab3_P3 {
+public static void main(String[] args) {
+		
+		MyDataPoint point1 = new MyDataPoint() ;
+		MyDataPoint point2 = new MyDataPoint(10, 30.5);
+		System.out.println("The distance is (using one point's distance method): " + point1.distance(10, 30.5));
+		System.out.println("The distance is (using MyDataPoint class's distance method): " + point1.distance(point2));
+
+	}
+}
